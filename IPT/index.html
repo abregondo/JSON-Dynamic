@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Dynamic Object</title>
+  </head>
+
+  <body>
+    <h1>Information Form</h1>
+
+    <form id="infoForm">
+      <label for="fullName">Full Name:</label><br />
+      <input type="text" id="fullName" name="fullName" required /><br /><br />
+
+      <label for="age">Age:</label><br />
+      <input type="number" id="age" name="age" min="0" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="hobby">Hobby:</label><br />
+      <input type="text" id="hobby" name="hobby" required /><br /><br />
+
+      <label for="birthday">Birthday:</label><br />
+      <input type="date" id="birthday" name="birthday" required /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>JSON Output</h2>
+    <div id="jsonOutput"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+form {
+  margin: auto;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 0px 12px 0px aqua;
+  max-width: 200px;
+}
+h1 {
+  margin-top: 50px;
+  margin-left: 671px;
+}
+h2 {
+  margin-left: 720px;
+}
+script {
+  margin-left: 50px;
+}
+
+#jsonOutput {
+  text-align: center;
+}
+
+#jsonOutput pre {
+  display: inline-block;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
